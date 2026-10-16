@@ -10,7 +10,4 @@ module full_adder(
     assign Y = ~Cin & (A ^ B) | Cin & ~(A ^ B);
     assign Cout = A & Cin | A & B | B & Cin;
 
-    // assign Z = ~carry & (B ^ D) | carry & ~(B ^ D);
-    // assign carry2 = B & carry | B & D | D & carry;
-
 endmodule
